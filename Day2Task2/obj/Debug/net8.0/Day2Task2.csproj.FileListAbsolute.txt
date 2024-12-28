@@ -1,0 +1,14 @@
+C:\Users\Kenan\Desktop\AdventOfCode\Day2Task2\obj\Debug\net8.0\Day2Task2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenan\Desktop\AdventOfCode\Day2Task2\obj\Debug\net8.0\Day2Task2.AssemblyInfoInputs.cache
+C:\Users\Kenan\Desktop\AdventOfCode\Day2Task2\obj\Debug\net8.0\Day2Task2.AssemblyInfo.cs
+C:\Users\Kenan\Desktop\AdventOfCode\Day2Task2\obj\Debug\net8.0\Day2Task2.csproj.CoreCompileInputs.cache
+C:\Users\Kenan\Desktop\AdventOfCode\Day2Task2\bin\Debug\net8.0\Day2Task2.exe
+C:\Users\Kenan\Desktop\AdventOfCode\Day2Task2\bin\Debug\net8.0\Day2Task2.deps.json
+C:\Users\Kenan\Desktop\AdventOfCode\Day2Task2\bin\Debug\net8.0\Day2Task2.runtimeconfig.json
+C:\Users\Kenan\Desktop\AdventOfCode\Day2Task2\bin\Debug\net8.0\Day2Task2.dll
+C:\Users\Kenan\Desktop\AdventOfCode\Day2Task2\bin\Debug\net8.0\Day2Task2.pdb
+C:\Users\Kenan\Desktop\AdventOfCode\Day2Task2\obj\Debug\net8.0\Day2Task2.dll
+C:\Users\Kenan\Desktop\AdventOfCode\Day2Task2\obj\Debug\net8.0\refint\Day2Task2.dll
+C:\Users\Kenan\Desktop\AdventOfCode\Day2Task2\obj\Debug\net8.0\Day2Task2.pdb
+C:\Users\Kenan\Desktop\AdventOfCode\Day2Task2\obj\Debug\net8.0\Day2Task2.genruntimeconfig.cache
+C:\Users\Kenan\Desktop\AdventOfCode\Day2Task2\obj\Debug\net8.0\ref\Day2Task2.dll

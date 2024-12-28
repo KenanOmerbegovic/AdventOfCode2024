@@ -1,0 +1,103 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Hardcoded file path
+        string filePath = "day9-1.txt"; // Update this to your actual file path
+
+        // Read the disk map from the file
+        string diskMap;
+        try
+        {
+            diskMap = File.ReadAllText(filePath).Trim();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error reading the file: " + ex.Message);
+            return;
+        }
+
+        // Validate that the input is numeric
+        if (string.IsNullOrEmpty(diskMap) || !IsNumeric(diskMap))
+        {
+            Console.WriteLine("Error: Disk map must be a non-empty string of digits.");
+            return;
+        }
+
+        // Parse disk map into file lengths and free space lengths
+        List<int> fileLengths = new List<int>();
+        List<int> freeSpaceLengths = new List<int>();
+
+        for (int i = 0; i < diskMap.Length; i += 2)
+        {
+            fileLengths.Add(diskMap[i] - '0'); // File length
+            if (i + 1 < diskMap.Length)
+            {
+                freeSpaceLengths.Add(diskMap[i + 1] - '0'); // Free space length
+            }
+            else
+            {
+                freeSpaceLengths.Add(0); // Default to 0 free space if no paired digit
+            }
+        }
+
+        // Build the initial disk layout
+        List<char> diskLayout = new List<char>();
+        int fileId = 0;
+        for (int i = 0; i < fileLengths.Count; i++)
+        {
+            for (int j = 0; j < fileLengths[i]; j++)
+                diskLayout.Add((char)('0' + fileId)); // Add file blocks
+            for (int j = 0; j < freeSpaceLengths[i]; j++)
+                diskLayout.Add('.'); // Add free space blocks
+            fileId++;
+        }
+
+        Console.WriteLine("Initial Disk Layout: " + string.Join("", diskLayout));
+
+        // Simulate compaction
+        for (int i = diskLayout.Count - 1; i >= 0; i--)
+        {
+            if (diskLayout[i] != '.')
+            {
+                // Find the leftmost free space
+                int freeSpaceIndex = diskLayout.IndexOf('.');
+                if (freeSpaceIndex < i)
+                {
+                    // Move the block to the free space
+                    diskLayout[freeSpaceIndex] = diskLayout[i];
+                    diskLayout[i] = '.';
+                }
+            }
+        }
+
+        Console.WriteLine("Compacted Disk Layout: " + string.Join("", diskLayout));
+
+        // Calculate the checksum
+        long checksum = 0; // Use long to prevent overflow
+        for (int i = 0; i < diskLayout.Count; i++)
+        {
+            if (diskLayout[i] != '.')
+            {
+                int fileIdAtPosition = diskLayout[i] - '0';
+                checksum += (long)i * fileIdAtPosition; // Explicitly cast to long
+            }
+        }
+
+        Console.WriteLine("Filesystem Checksum: " + checksum);
+    }
+
+    // Helper function to check if a string is numeric
+    static bool IsNumeric(string str)
+    {
+        foreach (char c in str)
+        {
+            if (!char.IsDigit(c)) return false;
+        }
+        return true;
+    }
+} 

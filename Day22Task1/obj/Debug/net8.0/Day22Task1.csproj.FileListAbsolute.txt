@@ -1,0 +1,14 @@
+C:\Users\Kenan\Desktop\AdventOfCode\Day22Task1\bin\Debug\net8.0\Day22Task1.exe
+C:\Users\Kenan\Desktop\AdventOfCode\Day22Task1\bin\Debug\net8.0\Day22Task1.deps.json
+C:\Users\Kenan\Desktop\AdventOfCode\Day22Task1\bin\Debug\net8.0\Day22Task1.runtimeconfig.json
+C:\Users\Kenan\Desktop\AdventOfCode\Day22Task1\bin\Debug\net8.0\Day22Task1.dll
+C:\Users\Kenan\Desktop\AdventOfCode\Day22Task1\bin\Debug\net8.0\Day22Task1.pdb
+C:\Users\Kenan\Desktop\AdventOfCode\Day22Task1\obj\Debug\net8.0\Day22Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenan\Desktop\AdventOfCode\Day22Task1\obj\Debug\net8.0\Day22Task1.AssemblyInfoInputs.cache
+C:\Users\Kenan\Desktop\AdventOfCode\Day22Task1\obj\Debug\net8.0\Day22Task1.AssemblyInfo.cs
+C:\Users\Kenan\Desktop\AdventOfCode\Day22Task1\obj\Debug\net8.0\Day22Task1.csproj.CoreCompileInputs.cache
+C:\Users\Kenan\Desktop\AdventOfCode\Day22Task1\obj\Debug\net8.0\Day22Task1.dll
+C:\Users\Kenan\Desktop\AdventOfCode\Day22Task1\obj\Debug\net8.0\refint\Day22Task1.dll
+C:\Users\Kenan\Desktop\AdventOfCode\Day22Task1\obj\Debug\net8.0\Day22Task1.pdb
+C:\Users\Kenan\Desktop\AdventOfCode\Day22Task1\obj\Debug\net8.0\Day22Task1.genruntimeconfig.cache
+C:\Users\Kenan\Desktop\AdventOfCode\Day22Task1\obj\Debug\net8.0\ref\Day22Task1.dll

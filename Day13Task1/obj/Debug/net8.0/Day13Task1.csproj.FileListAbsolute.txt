@@ -1,0 +1,14 @@
+C:\Users\Kenan\Desktop\AdventOfCode\Day13Task1\bin\Debug\net8.0\Day13Task1.exe
+C:\Users\Kenan\Desktop\AdventOfCode\Day13Task1\bin\Debug\net8.0\Day13Task1.deps.json
+C:\Users\Kenan\Desktop\AdventOfCode\Day13Task1\bin\Debug\net8.0\Day13Task1.runtimeconfig.json
+C:\Users\Kenan\Desktop\AdventOfCode\Day13Task1\bin\Debug\net8.0\Day13Task1.dll
+C:\Users\Kenan\Desktop\AdventOfCode\Day13Task1\bin\Debug\net8.0\Day13Task1.pdb
+C:\Users\Kenan\Desktop\AdventOfCode\Day13Task1\obj\Debug\net8.0\Day13Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenan\Desktop\AdventOfCode\Day13Task1\obj\Debug\net8.0\Day13Task1.AssemblyInfoInputs.cache
+C:\Users\Kenan\Desktop\AdventOfCode\Day13Task1\obj\Debug\net8.0\Day13Task1.AssemblyInfo.cs
+C:\Users\Kenan\Desktop\AdventOfCode\Day13Task1\obj\Debug\net8.0\Day13Task1.csproj.CoreCompileInputs.cache
+C:\Users\Kenan\Desktop\AdventOfCode\Day13Task1\obj\Debug\net8.0\Day13Task1.dll
+C:\Users\Kenan\Desktop\AdventOfCode\Day13Task1\obj\Debug\net8.0\refint\Day13Task1.dll
+C:\Users\Kenan\Desktop\AdventOfCode\Day13Task1\obj\Debug\net8.0\Day13Task1.pdb
+C:\Users\Kenan\Desktop\AdventOfCode\Day13Task1\obj\Debug\net8.0\Day13Task1.genruntimeconfig.cache
+C:\Users\Kenan\Desktop\AdventOfCode\Day13Task1\obj\Debug\net8.0\ref\Day13Task1.dll
