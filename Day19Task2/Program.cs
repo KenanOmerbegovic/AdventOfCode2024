@@ -63,7 +63,7 @@ namespace AdventOfCode.Puzzles._2024._19.Part2
             var part2 = new Part2();
 
             // Specify the path to your input file
-            string filePath = "day19aj.txt";
+            string filePath = "day19.txt";
 
             // Solve the puzzle and output the result
             var result = await part2.SolveAsync(filePath);
