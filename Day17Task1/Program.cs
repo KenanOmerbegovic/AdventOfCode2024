@@ -7,7 +7,7 @@ class Program
     static void Main(string[] args)
     {
         // Hardcoded file path
-        string filePath = "17aj.txt";
+        string filePath = "day17.txt";
 
         if (!File.Exists(filePath))
         {
