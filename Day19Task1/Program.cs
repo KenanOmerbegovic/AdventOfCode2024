@@ -66,7 +66,7 @@ namespace AdventOfCode.Puzzles._2024._19.Part1
         public static async Task Main(string[] args)
         {
             var part1 = new Part1();
-            string filePath = "day19aj.txt"; // Set the path to your .txt file
+            string filePath = "day19.txt"; // Set the path to your .txt file
             var result = await part1.SolveAsync(filePath);
             Console.WriteLine($"Result: {result}");
         }
